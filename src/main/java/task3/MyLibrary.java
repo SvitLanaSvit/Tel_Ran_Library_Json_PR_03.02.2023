@@ -1,10 +1,13 @@
 package task3;
 
-import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 import lombok.ToString;
 
+@Getter
+@Setter
 @ToString
-public class MyLibrary {
+public class MyLibrary{
     private Book book;
     private Subscriber subscriber;
 
